@@ -9,6 +9,7 @@
 
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/parsley.min.js"></script>
+  <script src="js/index.js"></script>
   
 
   <link rel="stylesheet" href="css/styles2.css">
@@ -50,6 +51,29 @@
 
   </div>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDDyPl3ToP9zKgJJFXVvkWGlmJaoMsKuZs",
+    authDomain: "drip-4ae00.firebaseapp.com",
+    databaseURL: "https://drip-4ae00.firebaseio.com",
+    projectId: "drip-4ae00",
+    storageBucket: "drip-4ae00.appspot.com",
+    messagingSenderId: "618832173268",
+    appId: "1:618832173268:web:59ab907d9b13c3dadcc341",
+    measurementId: "G-JCZG5TN0Y9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 </body>
 
