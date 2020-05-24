@@ -3,7 +3,7 @@
 
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles2.css">
+  <!-- <link rel="stylesheet" type="text/css" href="styles2.css"> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="css/styles2.css">
 
-
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
 
 
   <title>ParsleyJS + Firebase</title>
@@ -29,17 +29,17 @@
 
   <div class="form">
 
-    <div class="inlogform">
+    <div id="inloggen" class="inlogform">
       <h2>Inloggen</h2>
-      <input type="email" placeholder="Email"><br>
-      <input type="wachtwoord" placeholder="Wachtwoord"><br>
+      <input type="email" placeholder="email" id="email"><br>
+      <input type="wachtwoord" placeholder="wachtwoord" id="wachtwoord"><br>
 
-      <button>Log in</button>
+      <button onclick="login()">Log in</button>
     </div>
 
 
 
-    <div class="ingelogd">
+    <div id="uitloggen" class="ingelogd">
       <h2>Welkom, ....</h2>
       <button>Uitloggen</button>
 
@@ -50,8 +50,7 @@
     </div>
 
   </div>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
@@ -67,8 +66,8 @@
     projectId: "drip-4ae00",
     storageBucket: "drip-4ae00.appspot.com",
     messagingSenderId: "618832173268",
-    appId: "1:618832173268:web:59ab907d9b13c3dadcc341",
-    measurementId: "G-JCZG5TN0Y9"
+    appId: "1:618832173268:web:a38b3a9a8e42c4ffdcc341",
+    measurementId: "G-3Q8180VPTR"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);

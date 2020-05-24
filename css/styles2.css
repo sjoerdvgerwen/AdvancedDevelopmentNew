@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   width: 100%;
+  display: block;
 }
 
 .top-container {
@@ -15,7 +16,6 @@ body {
 
 .form {
   text-align: center;
-  
 }
 
 .inlogform {
@@ -30,9 +30,5 @@ body {
 
 .ingelogd {
   padding-top: 100px;
-}
-
-button {
-  background-color: rgb()
 }
 
