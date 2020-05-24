@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+.top-container {
+  text-align: center;
+  border-bottom: 5px solid red;
+}
+.form input {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form {
+  text-align: center;
+  
+}
+
+.inlogform {
+  margin: 10px;
+}
+
+.inlogform, .ingelogd, button {
+  padding-right: 88px;
+  padding-left: 88px;
+  border-radius: 5px;
+}
+
+.ingelogd {
+  padding-top: 100px;
+}
+
+button {
+  background-color: rgb()
+}
+
