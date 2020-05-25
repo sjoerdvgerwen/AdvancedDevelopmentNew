@@ -14,27 +14,16 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-// function login(){
-
-//     var mail = document.getElementById("email").value;
-//     var wachtwoord = document.getElementById("wachtwoord").value;
-//     debugger;
-// }
 
 
 function login() {
+    var mail = document.getElementById("email").value;
+    var wachtwoord = document.getElementById("wachtwoord").value;
 
     
-    firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        alert('aaaa')
-        // ...
-      });
 
     firebase.auth().signInWithEmailAndPassword(mail, wachtwoord).catch(function(error) {
-        alert('aaa');        // Handle Errors here.
+               // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
         
@@ -57,3 +46,14 @@ firebase.auth().onAuthStateChanged(function(user) {
        document.getElementById("uitloggen").style.display = "none";
      }
  });
+
+ function logout() {
+
+
+ firebase.auth().signOut().then(function() {
+    window.alert("Succesvol uitgelogd");
+  }).catch(function(error) {
+    window.alert("Er is iets foutgegaan bij het uitloggen");
+  });
+
+}
