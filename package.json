@@ -1,0 +1,25 @@
+{
+  "name": "advanceddevelopmentnew",
+  "version": "1.0.0",
+  "description": "js mqtt",
+  "main": "index.js",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "mqtt": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node mqtt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjoerdvgerwen/AdvancedDevelopmentNew.git"
+  },
+  "keywords": [],
+  "author": "sjoerd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjoerdvgerwen/AdvancedDevelopmentNew/issues"
+  },
+  "homepage": "https://github.com/sjoerdvgerwen/AdvancedDevelopmentNew#readme"
+}
