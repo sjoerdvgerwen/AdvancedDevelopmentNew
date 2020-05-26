@@ -4,12 +4,14 @@
   "description": "js mqtt",
   "main": "index.js",
   "dependencies": {
+    "browserify": "^16.5.1",
     "mosca": "^2.8.3",
     "mqtt": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node mqtt.js"
+    "build": "browserify mqtt.js -o newmqtt.js",
+    "start": "node newmqtt.js"
   },
   "repository": {
     "type": "git",
