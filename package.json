@@ -6,11 +6,12 @@
   "dependencies": {
     "browserify": "^16.5.1",
     "mosca": "^2.8.3",
-    "mqtt": "^4.1.0"
+    "mqtt": "^4.1.0",
+    "requirejs": "^2.3.6"
   },
   "devDependencies": {},
   "scripts": {
-    "build": "browserify mqtt3.js -o mqtt3new.js"
+    "build": "browserify mqtt_subscribe.js -o subscribe.js"
   },
   "repository": {
     "type": "git",

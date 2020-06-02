@@ -1,9 +1,8 @@
-
+// MQTT subscriber
 
 var mqtt = require('mqtt')
-var client  = mqtt.connect('mqtt://broker.mqtt-dashboard.com')
+var client  = mqtt.connect('mqtt://Localhost:1234')
 var topic = 'sjoerdMessage'
-var path = '/mqtt'
 
 client.on('message', (topic, message)=>{
     message = message.toString()
@@ -14,7 +13,9 @@ client.on('connect', ()=> {
     client.subscribe(topic);
 })
 
-//document.getElementById("waterverbruik").innerHTML = 1+1;
+
+
+//document.getElementById("waterverbruik").innerHTML = message;
 
 
 
