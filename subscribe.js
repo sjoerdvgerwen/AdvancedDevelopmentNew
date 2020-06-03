@@ -7,14 +7,12 @@ var topic = 'sjoerdMessage'
 
 client.on('message', (topic, message)=>{
     message = message.toString()
-    var log = console.log(message);
+    console.log(message);
 })
 
 client.on('connect', ()=> {
     client.subscribe(topic);
 })
-
-document.getElementById("waterverbruik").innerHTML = log;
 
 
 

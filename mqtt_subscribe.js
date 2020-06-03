@@ -11,7 +11,7 @@ client.on('connect', ()=> {
     client.subscribe(topic);
 })
 
-document.getElementById("demo").innerHTML = message;
+//document.getElementById("waterverbruik").innerHTML = message;
 
 
 
