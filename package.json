@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "browserify mqtt_subscribe.js -o subscribe.js"
+    "build": "browserify mqtt.js -o newmqtt.js",
+    "start": "node newmqtt.js"
   },
   "repository": {
     "type": "git",

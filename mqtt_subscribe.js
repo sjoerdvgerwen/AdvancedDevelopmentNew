@@ -1,5 +1,3 @@
-// MQTT subscriber
-
 var mqtt = require('mqtt')
 var client  = mqtt.connect('mqtt://Localhost:1234')
 var topic = 'sjoerdMessage'
@@ -13,9 +11,7 @@ client.on('connect', ()=> {
     client.subscribe(topic);
 })
 
-
-
-//document.getElementById("waterverbruik").innerHTML = message;
+document.getElementById("demo").innerHTML = message;
 
 
 
