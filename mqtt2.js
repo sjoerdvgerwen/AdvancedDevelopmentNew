@@ -15,8 +15,6 @@ client.on('connect', ()=> {
 //document.getElementById("demo").innerHTML = message;
 
 
-
-
 },{"mqtt":103}],2:[function(require,module,exports){
 'use strict'
 
