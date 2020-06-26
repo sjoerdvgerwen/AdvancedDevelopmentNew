@@ -6,7 +6,7 @@ Inlogsyssteem
 Connectie met Firebase voor verificatie
 MQTT output wordt gedisplayd zodra je bent ingelogd.
 
-Het eerste gedeelte was redelijk snel gemaakt. Ik had 2 <div>'jes gemaakt met inlog en uitlog, zodra een div geverifieerd was, dat hij was ingelogd, werd een div'je gedisplayd en de andere niet meer. 
+Het eerste gedeelte was redelijk snel gemaakt. Ik had 2 div'jes gemaakt met inlog en uitlog, zodra een div geverifieerd was, dat hij was ingelogd, werd een div'je gedisplayd en de andere niet meer. 
 De connectie met Firebase was iets moeilijker omdat Stijn de firebase had aangemaakt en ik niet alle juiste credentials had om de verificatie te laten voltooien. Toen hij eenmaal gekoppeld was, werkte het redelijk simpel.
   
 De MQTT data was het grootste probleem, dat tot op heden helaas nogsteeds niet is verholpen. De MQTT data zou moeten worden weergegeven zodra de gebruiker was ingelogd.
