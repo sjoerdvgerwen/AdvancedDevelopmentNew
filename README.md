@@ -16,3 +16,10 @@ Helaas heb ik hiervoor een hoop libraries moeten downloaden omdat de data van ee
 Dit kwam door de websockets, dit zijn de pakketjes waarmee de data van de MQTT wordt verzonden naar de HTML. Deze werden niet zomaar toegestaan. Toen ik uiteindelijk een library had gevonden waarmee ze werden toegestaan liep ik tegen nieuwe andere problemen aan waardoor ik het uiteindelijk maar heb opgegeven. 
 
 Luuk en Erik hadden mijn werk al vaak gezien door alle feedback en vragen die ik ze had gesteld. Hierdoor hadden ze al lang goedkeuring gegeven voor de uitkomst op het einde, ook terwijl hij niet deed wat hij oorspronkelijk wel zou moeten doen. Het ging hen om het leerproces en niet om de eindoplevering.
+
+JE KAN DE FUNCTIONELE INLOGFUNCTIE WEL TESTEN MET:
+
+INLOG = fontys@fontys.nl
+WW = fontys
+
+Als je wordt ingelogd zie je helaas de MQTT data NIET verschijnen.
